@@ -1,0 +1,5 @@
+You can call the /pdfjs/web/viewer.html with specific URL-parameters, to display the specified PDF.
+Absolute Path:
+	call it via /pdfjs/web/viewer.html?path=absolute&<ABSOLUTE PATH>.pdf. Please make sure, that the http:// is stripped of. Otherwise the request will fail.
+Relative Path:
+	call it via /pdfjs/web/viewer.html?path=relative&<RELATIVE PATH>.pdf. In this case you have no restrictions.
